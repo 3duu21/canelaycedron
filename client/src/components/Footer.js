@@ -59,10 +59,22 @@ function Footer() {
 
                     <div className='flex flex-col justify-center mt-8 mr-40 sm:mr-0 mb-5'>
                         <div>
-                            <p className='text-tertiary text-2xl'>Contáctanos: </p>
+                            <p className='text-tertiary text-2xl'>Producciones gastronómicas </p>
                         </div>
                         <div>
+                            <p className='text-tertiary text-2xl'>Contáctanos: </p>
+                        </div>
+                        <div className='mb-3'>
                             <a href='https://wa.me/34555005500' className='text-tertiary text-2xl hover:text-special duration-300'>+56982568627</a>
+                        </div>
+                        <div>
+                            <p className='text-tertiary text-lg'>Chef Director: Marcelo Araya Acevedo.</p>
+                        </div>
+                        <div>
+                            <p className='text-tertiary text-lg'>marcelo@canelaycedron.cl</p>
+                        </div>
+                        <div>
+                            <p className='text-tertiary text-lg'>mariajose@canelaycedron.cl</p>
                         </div>
                     </div>
                 </div>

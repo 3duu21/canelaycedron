@@ -7,7 +7,7 @@ function Header() {
 
   let Links = [
     { name: "Inicio", link: "#inicio" },
-    { name: "Somos", link: "#somos" },
+    { name: "Somos", link: "../pages/somos" },
     { name: "Servicios", link: "#servicios" },
     { name: "Portafolio ", link: "#portafolio" },
     { name: "Contacto", link: "#contacto" }
