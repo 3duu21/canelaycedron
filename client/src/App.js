@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Somos from './pages/somos';
 import Parati from './pages/parati';
+import Clientes from './pages/clientes';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Somos />
       <Parati />
+      <Clientes />
       <Footer />
     </div>
   );
