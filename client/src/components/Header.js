@@ -24,16 +24,16 @@ function Header() {
 
   return (
     <main className='w-full h-screen' style={style}>
-      <div className='absolute inset-0 bg-primary opacity-90 z-0'>
-        <div className='md:flex pt-3 md:px-10 px-7' >
-          <div className='flex items-center justify-between sm:block '>
+      <div className='absolute inset-0 bg-primary h-screen opacity-90 z-0'>
+        <div className='sm:flex pt-3 sm:px-10 px-7' >
+          <div className='flex items-center justify-between sm:block  '>
             <a href='/'>
               <div className='p-2 pb-2 sm:pb-5 flex flex-row z-50 sm:z-50'>
                 <img className='ml-20 h-[120px] sm:ml-0 sm:h-24 z-20' src={logo} />
               </div>
             </a>
 
-            <div onClick={() => setOpen(!open)} className='absolute right-8 top-14 cursor-pointer z-20 hidden sm:block'>
+            <div onClick={() => setOpen(!open)} className='absolute right-8 top-14 cursor-pointer z-20 hidden sm:block '>
               <span className='text-3xl'>
                 <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
               </span>

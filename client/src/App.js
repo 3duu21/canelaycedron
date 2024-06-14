@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Somos from './pages/somos';
 import Parati from './pages/parati';
 import Clientes from './pages/clientes';
+import Portafolio from './pages/portafolio';
+import Contacto from './pages/contacto';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Somos />
       <Parati />
       <Clientes />
+      <Portafolio />
+      <Contacto />
       <Footer />
     </div>
   );

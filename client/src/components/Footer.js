@@ -24,7 +24,7 @@ function Footer() {
     return (
         <footer className='relative w-full' style={style}>
             <div className='relative inset-0 bg-primary opacity-90 z-0'>
-                <div className='flex justify-between pl-52 pr-52 sm:flex-col sm:pl-0 sm:pr-0'>
+                <div className='flex justify-between md:pl-0 md:pr-0 pl-52 pr-52 sm:flex-col sm:pl-0 sm:pr-0'>
                     <div className='flex flex-row items-center mt-14 mb-10 ml-20 sm:flex-col sm:ml-0'>
                         <div className='gap-3 flex flex-col items-center justify-center text-tertiary'>
                             <div className=''>

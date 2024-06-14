@@ -4,7 +4,7 @@ import logo from '../img/canelaycedronLogo.png'
 function somos() {
     return (
         <div className='h-auto bg-gradient-to-r from-slate-200 to-slate-500 '>
-            <div className='flex flex-row items-center justify-center sm:flex-col p-32 gap-32 sm:p-5 sm:gap-12'>
+            <div className='flex flex-row items-center justify-center sm:flex-col p-32 gap-32 sm:p-5 sm:gap-12 md:gap-20 md:p-24'>
                 <div className=''>
                     <h1 className='text-6xl mb-10 sm:text-3xl sm:mb-0' >Nosotros</h1>
                     <p className='font-light mt-10 mr-20 ml-20 sm:text-md sm:mb-0 sm:m-5'>Somos un grupo de jóvenes profesionales dedicados integralmente a 
@@ -25,7 +25,7 @@ function somos() {
                         </ul>
                 </div>
                 <div className='flex'>
-                    <img className='w-auto sm:w-48' src={logo} />
+                    <img className='w-auto sm:w-48 md:w-[1500px]' src={logo} />
                 </div>
             </div>
         </div>

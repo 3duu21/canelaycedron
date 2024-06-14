@@ -1,17 +1,17 @@
 import React from 'react'
-import coffeBreak from '../img/coffebreak.png'
-import matrimonio from '../img/matrimonio.png'
-import desayuno from '../img/desayuno.png'
-import almuerzo from '../img/almuerzo.png'
-import eventos from '../img/eventos.png'
-import coctel from '../img/cocteles.png'
+import coffeBreak from '../img/cofee.svg'
+import matrimonio from '../img/matrimonio.svg'
+import desayuno from '../img/desayuno.svg'
+import almuerzo from '../img/almuerzo.svg'
+import eventos from '../img/eventos.svg'
+import coctel from '../img/coctel.svg'
 
 
 
 function parati() {
     return (
         <div className='h-auto bg-tertiary'>
-            <div className='flex flex-row sm:flex-col p-32 gap-52 sm:gap-5 sm:p-5'>
+            <div className='flex flex-row sm:flex-col p-32 gap-52 sm:gap-10 sm:p-5 md:gap-10 md:p-16'>
                 <div className=''>
                     <h1 className='text-6xl mb-10 sm:text-xl' >Para Ti</h1>
                     <p className='font-light mb-5 sm:text-sm'> <p className='font-bold'>GASTRONOMIA</p>
@@ -33,7 +33,7 @@ function parati() {
                         jóvenes con ganas de aprender, siempre con una atención amable y personalizada
                     </p>
                 </div>
-                <div className='grid gap-5 grid-cols-3 sm:grid-cols-2'>
+                <div className='grid gap-16 grid-cols-3 sm:grid-cols-2 sm:gap-28 sm:w-auto sm:pl-14 sm:pr-14'>
                     <div className='flex flex-col items-center justify-center'>
                         <img className='w-auto mix-blend-multiply' src={coffeBreak} />
                         <p>Coffee Break</p>
@@ -44,11 +44,11 @@ function parati() {
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <img className='w-auto mix-blend-multiply' src={desayuno} />
-                        <p>Desayunos</p>
+                        <p>Desayunos(Buffet)</p>
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <img className='w-auto mix-blend-multiply' src={almuerzo} />
-                        <p>Almuerzos</p>
+                        <p>Almuerzos(Buffet)</p>
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <img className='w-auto mix-blend-multiply' src={eventos} />
